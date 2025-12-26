@@ -462,6 +462,97 @@
 .benefit-box a:hover {
     color: #c03939; /* lighter Spotify green */
 }
+/* ===================== */
+/* MOBILE PHONE ONLY */
+/* ===================== */
+/* ===================== */
+/* FULL MOBILE CSS */
+/* ===================== */
+@media (max-width: 768px) {
+
+  section {
+    padding: 3rem 5%;
+  }
+
+  /* ===== HOME LAYOUT ===== */
+  .home {
+    flex-direction: column;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 3rem 5%;
+  }
+
+  .home-img {
+    margin-left: 0 !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-img img {
+    width: 90vw;
+    height: auto;
+    margin-top: 2rem;
+    transform: none;
+  }
+
+  .home-content {
+    width: 100%;
+    text-align: left;
+  }
+
+  /* Know About Me → 0.7x */
+  .home-content h1 {
+    font-size: calc(6rem * 0.55);
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+  }
+
+  /* I am ... → 1.4x */
+  .home-content h3,
+  .typing-text {
+    font-size: calc(4rem * 1.7);
+    margin-bottom: 1.2rem;
+  }
+
+  /* Paragraph → 1.4x */
+  .home-content p {
+    font-size: calc(1.6rem * 1.4) !important;
+    line-height: 1.8;
+  }
+
+  /* ===== BENEFITS SECTION ===== */
+  .benefits h2 {
+    font-size: 3rem !important;
+  }
+
+  .benefit-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefit-box {
+    width: 100%;
+  }
+
+  .benefit-box h3 {
+    font-size: 2.4rem;
+  }
+
+  .benefit-box p {
+    font-size: 1.6rem;
+  }
+
+  /* ===== EMBEDS ===== */
+  iframe {
+    height: 420px;
+  }
+
+  /* ===== USER EMAIL ===== */
+  #user-email {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
 
     </style>
 </head>
